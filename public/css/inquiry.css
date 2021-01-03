@@ -1,0 +1,104 @@
+.headeri{
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+.headeri h4 {
+    margin: auto;
+    width: 300px;
+    font-style: bold;
+}
+
+.body-headi{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.body-headi hr{
+    border: 2px solid rgb(57, 60, 63);
+    margin-top: 3px;
+    margin-bottom: 25px;
+}
+
+.inq-bodyi{
+    margin-left: 50px;
+}
+
+.inq-bodyi input[type=text] {
+    width: 80%;
+    padding: 10px ;
+    margin-top: -7px;
+    box-sizing: border-box;
+    border: 1px solid rgb(117, 116, 116);
+    border-radius: 4px;
+}
+
+.inq-bodyi input[type=checkbox] {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.inq-bodyi input[type=submit] {
+    background-color: rgb(16, 132, 240);
+    margin-left: 200px; 
+}
+
+.inq-view-table {
+    margin: 50px;
+    border: 2px solid black;
+    width: 90%;
+    margin-bottom: 300px;
+}
+
+.inq-view-table thead,tbody {
+    
+    border: 2px solid black;
+    
+}
+
+.inq-view-table thead {
+    font-size: 20px;
+    font-style: oblique;
+    background-color: darkgray;
+    
+}
+
+.inq-view-button{
+    margin-top: 50px;
+}
+.inq-view-button a {
+  background-color:  rgb(16, 132, 240);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.inq-view-button a:hover{
+    background-color: rgb(36, 100, 238);
+    text-decoration: none;
+}
+
+.inq-view-table input[type=submit] {
+    background-color:  rgb(16, 132, 240);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.down-btn {
+    background-color:  rgb(16, 132, 240);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: -100px;
+}

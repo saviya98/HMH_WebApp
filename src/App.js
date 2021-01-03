@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Header from './components/headerComponent/header';
+import Footer from './components/footerComponent/footer';
+import Homepage from './components/pages/home';
+import Pharmacy from './components/pages/pharmacy';
+import OutsidePatient from './components/pages/outsidePatient';
+import Inquery from './components/pages/inquery';
+import ViewInquery from './components/pages/inqView';
+
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Header />
+          <Route exact path='/Home' component={Homepage} />
+          <Route exact path='/Pharmacy' component={Pharmacy} />
+          <Route exact path='/OutsidePatient' component={OutsidePatient} />
+          <Route exact path='/Inquery' component={Inquery} />
+          <Route exact path='/ViewInquery' component={ViewInquery} />
+          <Footer />
+
+        </div>
+      </Router>
+
+    )
+  }
 }
 
 export default App;

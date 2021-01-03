@@ -1,0 +1,53 @@
+.topnav .topic h4{
+    color: black;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.pa-info{
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.pa-info label{
+    margin-left: 50px;
+    color: black;
+}
+
+.pa-info input{
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.pa-info .ageph input{
+    margin-left: 45px;
+    margin-right: 20px;
+}
+
+.pa-info input[type=submit]{
+    margin-left: 250px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+.presc-out-main{
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+

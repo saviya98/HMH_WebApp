@@ -1,0 +1,300 @@
+.topnav {
+	overflow: hidden;
+	background-color: #e9e9e9;
+  }
+  
+  
+  .topnav .search-container {
+	float: left;
+  }
+  
+  .topnav input[type=text] {
+	padding: 6px;
+	margin-left: 20px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-size: 17px;
+	border: 2px solid;
+  }
+  
+  .topnav .search-container button {
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+	background: #ccc;
+  }
+
+  .topnav .hed{
+	  margin-left: 40px;
+  }
+
+
+.patient-info {
+	align-items: center;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 10px;
+	left: 5%;
+	border: 2px solid ;
+	border-radius: 10px;
+	width: 90%;
+}
+#pa-in-phone{
+	margin-left: 101px;
+}
+hr{
+	border: 2px solid #6f6f6f;
+	margin-top: -10px;
+
+}
+.phead {
+	margin-left: 50px;
+	font-size: 25px;
+	padding: 5px;
+}
+
+.patient-info ul{
+	margin-left: 180px;
+	margin-top: -110px;
+	margin-bottom: 50px;
+}
+
+.patient-info img{
+	margin-left: 50px;
+	margin-top: 0px;
+	height: 120px;
+	width: 120px;
+	border-radius: 50px;
+}
+
+.prescrip-main{
+	align-items: center;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 10px;
+	left: 5%;
+	border: 2px solid ;
+	border-radius: 10px;
+	width: 90%;
+}
+
+.prescrip-mainO{
+	align-items: center;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 10px;
+	left: 5%;
+	border: 2px solid ;
+	border-radius: 10px;
+	width: 90%;
+}
+
+
+.prescrip-head{
+	margin-left: 50px;
+	font-size: 25px;
+	padding: 5px;
+}
+
+.prescrip-headO{
+	margin-left: 50px;
+	font-size: 25px;
+	padding: 5px;
+}
+
+.prescrip-headO table,th{
+	border: 1px solid rgb(92, 91, 91);
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	width: 20px;
+}
+
+.prescrip-OutTable input{
+	width: 100%;
+	/* border: none; */
+}
+
+.prescrip-OutTable select{
+	width: 100%;
+	border: none;
+}
+
+.prescrip-OutTable input[type=submit]{
+	width: 100px;
+}
+
+.prescrip-OutTable-o input{
+	width: 200%;
+	/* border: none; */
+}
+
+.prescrip-OutTable-o select{
+	width: 100%;
+	border: none;
+}
+
+.prescrip-OutTable-o input[type=button]{
+	width: 100px;
+}
+
+.prescrip-headO-o table,th{
+	border: 1px solid rgb(92, 91, 91);
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	width: 20px;
+}
+
+.prescrip-headO td{
+	width: 20px;
+}
+
+.prescrip-head table,th{
+	border: 1px solid rgb(92, 91, 91);
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	width: 100px;
+}
+
+.prescrip-head td {
+	width: 20px;
+}
+
+th{
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: grey;
+}
+
+.pharm-other-main{
+	align-items: center;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 10px;
+	left: 5%;
+	border: 2px solid ;
+	border-radius: 10px;
+	width: 56%;
+}
+
+.pharm-other-main table,th{
+	border: 1px solid rgb(92, 91, 91);
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	width: 500px;
+	padding-left: 10px;
+
+}
+
+.pharm-other-main td{
+	border: 1px solid grey;
+	width: 50px;
+}
+
+.btnother{
+	text-decoration: none;
+	border-radius: 16px;
+	background-color: #1273eb;
+
+}
+
+.note-main{
+	
+	position: relative;
+	margin-top: -219px;
+	margin-left: 900px;
+	left: 5%;
+	border: 2px solid ;
+	border-radius: 10px;
+	width: 20%;
+}
+
+.add-note textarea{
+	resize: none;
+	border: none;
+	border-radius: 10px;
+	padding: 2px;
+}
+
+.add-note button{
+	margin: 5px;
+	align-items: center;
+	margin-left: 100px;
+	border: none;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 16px;
+	background-color: #1273eb;
+}
+
+.Pharma-Home-body {
+	margin: auto;
+	width: 50%;
+	margin-top: 100px;
+	position: inherit;
+	
+}
+
+.Pharma-Home-body button{
+	margin-top: 50px;
+	align-items: center;
+	border-radius: 25px;
+	border-color: inherit;
+  	background: #1273eb;
+  	padding: 20px;
+  	width: 450px;
+	  height: 70px;
+	
+}
+
+.Pharma-Home-body button :hover{
+	cursor: pointer;
+	background-color: #557beb;
+	border-radius: 25px;
+	
+	
+}
+
+.Pharma-Home-body button h2{
+	color: cornsilk;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.under-buttons {
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-bottom: 50px;
+}
+.under-buttons .btn {
+	background-color: #1273eb;
+	border-radius: 16px;
+  	color: white;
+	padding: 5px 15px;
+	margin: 5px;
+	align-items: center;
+	margin-left: 100px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;
+	width: 200px;
+	display: block;
+}
+
+.tot-display {
+	margin-left: 30%;
+	margin-top: -38px;
+}
+
